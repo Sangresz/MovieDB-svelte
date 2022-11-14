@@ -15,9 +15,10 @@
 <style>
   .popular-movies {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     column-gap: 1rem;
     row-gap: 2rem;
+    margin-bottom: 1em;
   }
   h2 {
     margin: 1em;
